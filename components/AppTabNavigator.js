@@ -17,7 +17,17 @@ export const AppTabNavigator  = createBottomTabNavigator({
 }
     },
     ReadStory:{
-        screen:ReadStoryScreen
+        screen:ReadStoryScreen,
+        navigationOptions:
+    {
+    tabBarIcon:<Image source = 
+    {
+        require("../assets/read.png")
+    }
+    style = {{width:40,height:40}}
+    />,
+    tabBarLabel:"Request Books"
+}
     }
 })
 

@@ -4,10 +4,7 @@ import WriteStoryScreen from '../screens/WriteStoryScreen';
 
 export const AppStackNavigator = createStackNavigator({
    WriteStory:{
-        screen : WriteStoryScreen,
-        navigationOptions:{
-            headerShown : false
-          }
+        screen : WriteStoryScreen
     },
 }, 
     {

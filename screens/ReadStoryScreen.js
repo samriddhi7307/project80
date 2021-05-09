@@ -4,6 +4,7 @@ import { TextInput } from 'react-native-gesture-handler';
 import {SearchBar} from 'react-native-elements';
 import { set } from 'react-native-reanimated';
 import db from '../config';
+//import MyHeader from '../components/MyHeader';
 
 export default class ReadStoryScreen extends React.Component {
   constructor(){
@@ -55,13 +56,7 @@ export default class ReadStoryScreen extends React.Component {
 
 <View>
 
-        <Text style={{backgroundColor:'#1bb1b7',
-        textAlign:'center',
-        justifyContent:'center',
-        height:40,
-        fontSize:30,
-        color:'white',
-        fontWeight:'bold'}}>STORY HUB</Text>
+       <MyHeader title="STORY HUB" navigation ={this.props.navigation}/>
         </View>
 
         <View>
